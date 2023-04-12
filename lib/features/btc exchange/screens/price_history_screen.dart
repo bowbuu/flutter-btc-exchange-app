@@ -47,14 +47,14 @@ class _PriceHistoryScreenState extends State<PriceHistoryScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
             ),
             PriceHistoryHeaderWidget(currency: widget.currency),
-            _buildPriceHistoryListView(histories),
+            _buildPriceHistoriseListView(histories),
           ],
         );
       },
     );
   }
 
-  Widget _buildPriceHistoryListView(List<CurrencyViewModel?> histories) {
+  Widget _buildPriceHistoriseListView(List<CurrencyViewModel?> histories) {
     return Expanded(
       child: ListView.builder(
         itemCount: histories.length,

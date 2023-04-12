@@ -1,4 +1,4 @@
-import 'package:btc_exchange_app/pages/btc%20exchange/models/btc_exchange_rate_viewmodel.dart';
+import 'package:btc_exchange_app/features/btc%20exchange/models/btc_exchange_rate_viewmodel.dart';
 import 'package:btc_exchange_app/enums/currency_enum.dart';
 import 'package:btc_exchange_app/helpers/btc_converter_helper.dart';
 import 'package:btc_exchange_app/themes/theme_colors.dart';

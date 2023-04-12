@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:btc_exchange_app/pages/btc%20exchange/models/btc_exchange_rate_viewmodel.dart';
-import 'package:btc_exchange_app/pages/btc%20exchange/service/btc_exchange_service.dart';
+import 'package:btc_exchange_app/features/btc%20exchange/models/btc_exchange_rate_viewmodel.dart';
+import 'package:btc_exchange_app/features/btc%20exchange/service/btc_exchange_service.dart';
 import 'package:btc_exchange_app/enums/currency_enum.dart';
 import 'package:btc_exchange_app/helpers/date_helper.dart';
 import 'package:flutter/foundation.dart';

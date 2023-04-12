@@ -6,8 +6,8 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:btc_exchange_app/enums/currency_enum.dart';
-import 'package:btc_exchange_app/pages/btc%20exchange/models/btc_exchange_rate_viewmodel.dart';
-import 'package:btc_exchange_app/pages/btc%20exchange/widgets/currency_widget.dart';
+import 'package:btc_exchange_app/features/btc%20exchange/models/btc_exchange_rate_viewmodel.dart';
+import 'package:btc_exchange_app/features/btc%20exchange/widgets/currency_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

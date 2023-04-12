@@ -1,4 +1,4 @@
-import 'package:btc_exchange_app/pages/btc%20exchange/widgets/btc_converter_widget.dart';
+import 'package:btc_exchange_app/features/btc%20exchange/widgets/btc_converter_widget.dart';
 import 'package:btc_exchange_app/themes/theme_texts.dart';
 import 'package:btc_exchange_app/widgets/error_message_widget.dart';
 import 'package:btc_exchange_app/widgets/loading_widget.dart';
