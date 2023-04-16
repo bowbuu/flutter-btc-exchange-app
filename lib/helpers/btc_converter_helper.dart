@@ -1,6 +1,4 @@
-import '../enums/currency_enum.dart';
-
-num convertCurrencyToBTC(double amount, Currency currency, num? exchangeRate) {
+num convertCurrencyToBTC(double amount, num? exchangeRate) {
   if (exchangeRate == null || exchangeRate == 0) return 0;
 
   return amount / exchangeRate;

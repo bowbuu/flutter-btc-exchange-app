@@ -137,7 +137,7 @@ class _BTCConverterWidgetState extends State<BTCConverterWidget> {
 
     setState(() {
       final double amount = value.isEmpty ? 0 : double.parse(value);
-      final num btcValue = convertCurrencyToBTC(amount, _currencyValue, exchangeRate);
+      final num btcValue = convertCurrencyToBTC(amount, exchangeRate);
       btcPrice = btcValue.formatWithCommas(decimalPlaces: 10);
     });
   }

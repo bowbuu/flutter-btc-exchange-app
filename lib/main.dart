@@ -1,9 +1,8 @@
+import 'package:btc_exchange_app/features/btc%20exchange/controllers/btc_exchange_rate_controller.dart';
 import 'package:btc_exchange_app/features/btc%20exchange/screens/btc_exchange_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-
-import 'features/btc exchange/controllers/btc_exchange_rate_controller.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

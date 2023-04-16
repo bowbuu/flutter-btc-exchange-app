@@ -25,7 +25,7 @@ class _PriceHistoryScreenState extends State<PriceHistoryScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text("BTC/${widget.currency.name.toUpperCase()} History", style: ThemeTexts.medium(size: 20)),
+        title: Text("BTC/USD History", style: ThemeTexts.medium(size: 20)),
         backgroundColor: Colors.white,
         foregroundColor: ThemeColors.bodyText,
         centerTitle: true,
@@ -47,14 +47,14 @@ class _PriceHistoryScreenState extends State<PriceHistoryScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
             ),
             PriceHistoryHeaderWidget(currency: widget.currency),
-            _buildPriceHistoriseListView(histories),
+            _buildPriceHistoryListView(histories),
           ],
         );
       },
     );
   }
 
-  Widget _buildPriceHistoriseListView(List<CurrencyViewModel?> histories) {
+  Widget _buildPriceHistoryListView(List<CurrencyViewModel?> histories) {
     return Expanded(
       child: ListView.builder(
         itemCount: histories.length,

@@ -1,4 +1,3 @@
-import 'package:btc_exchange_app/enums/currency_enum.dart';
 import 'package:btc_exchange_app/helpers/btc_converter_helper.dart';
 import 'package:btc_exchange_app/helpers/date_helper.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -7,15 +6,15 @@ import 'package:intl/intl.dart';
 void main() {
   group('Helper Functions', () {
     test('Test convertCurrencyToBTC function with valid input', () {
-      expect(convertCurrencyToBTC(100.0, Currency.usd, 50000), equals(0.002));
+      expect(convertCurrencyToBTC(100.0, 50000), equals(0.002));
     });
 
     test('Test convertCurrencyToBTC function with zero input', () {
-      expect(convertCurrencyToBTC(0, Currency.usd, 50000), equals(0));
+      expect(convertCurrencyToBTC(0, 50000), equals(0));
     });
 
     test('Test convertCurrencyToBTC function with null exchange rate', () {
-      expect(convertCurrencyToBTC(100.0, Currency.usd, null), equals(0));
+      expect(convertCurrencyToBTC(100.0, null), equals(0));
     });
 
     test('Test getPercentChange function with null input', () {
